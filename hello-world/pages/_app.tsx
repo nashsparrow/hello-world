@@ -1,7 +1,6 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import { initializeApp } from "firebase/app";
-import configData  from "../config.json";
 
 const firebaseConfig = {
   apiKey: "AIzaSyBdjjiex6DK-iO81k0tSqyr2T9VqkifEok",
