@@ -4,12 +4,12 @@ import { initializeApp } from "firebase/app";
 import configData  from "../config.json";
 
 const firebaseConfig = {
-  apiKey: configData.firebaseConfig.apiKey,
-  authDomain: configData.firebaseConfig.authDomain,
-  projectId: configData.firebaseConfig.projectId,
-  storageBucket: configData.firebaseConfig.storageBucket,
-  messagingSenderId: configData.firebaseConfig.messagingSenderId,
-  appId: configData.firebaseConfig.appId
+  apiKey: "AIzaSyBdjjiex6DK-iO81k0tSqyr2T9VqkifEok",
+  authDomain: "react-hello-world-3c9e8.firebaseapp.com",
+  projectId: "react-hello-world-3c9e8",
+  storageBucket: "react-hello-world-3c9e8.appspot.com",
+  messagingSenderId: "203274028943",
+  appId: "1:203274028943:web:49ac9a774d456c2084edfa"
 }
 
 
