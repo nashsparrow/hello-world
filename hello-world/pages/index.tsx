@@ -9,7 +9,7 @@ export interface Message {
   body: string
 }
 
-const BASE_URL: string = 'http://localhost:8080/message';
+const BASE_URL: string = 'https://y6ac3cnvr2wn3mctarho3ap2hm0vlepi.lambda-url.us-east-1.on.aws/';
 
 export default function IndexPage({
   messages,
@@ -28,7 +28,7 @@ export default function IndexPage({
   export async function getStaticProps() {
     console.log('its working')
     const res = await fetch(BASE_URL)
-    const messages: Message = {body:"Hello World"}//await res.json();
+    const messages: Message = await res.json();
   
     return {
       props: {
