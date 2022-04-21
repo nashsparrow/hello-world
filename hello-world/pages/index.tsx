@@ -28,7 +28,7 @@ export default function IndexPage({
   export async function getStaticProps() {
     console.log('its working')
     const res = await fetch(BASE_URL)
-    const messages: Message = await res.json();
+    const messages: Message = {body:"Hello World"}//await res.json();
   
     return {
       props: {
